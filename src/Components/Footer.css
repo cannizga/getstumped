@@ -1,0 +1,20 @@
+.footer {
+    background: #19191a;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    z-index: 999;
+}
+
+.page-icon {
+    margin-right: 0.5rem;
+    height: 30px;
+    width: 30px;
+}
