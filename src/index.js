@@ -17,7 +17,6 @@ const AppLayout = () => {
     return (
         <>
             <Navbar/>
-           
             <Outlet/>
             <Footer/>
         </>
