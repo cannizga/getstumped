@@ -6,7 +6,7 @@ export function Footer() {
     return (
         <div className="footer">  
             <BiMeteor className="page-icon" />
-            <footer>Page By Giuseppe Cannizzo</footer>
+            <footer>Page Made By Giuseppe Antonio Cannizzo Jr.</footer>
         </div>
       );
 }
