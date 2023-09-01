@@ -6,7 +6,6 @@ function Home() {
     <div className="home">
       <h1>Home</h1>
       <AiOutlineHome className="page-icon" />
-
     </div>
   );
 }

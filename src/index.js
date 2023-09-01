@@ -12,6 +12,8 @@ import { Navbar } from "./Components/Navbar";
 import ErrorPage from "./routes/ErrorPage";
 import "./App.css";
 import { Footer } from "./Components/Footer";
+import Gallery from "./routes/Gallery";
+//import { Footer } from "./Components/Footer";
 
 const AppLayout = () => {
     return (
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: "contact",
                 element: <Contact />,
+            },
+            {
+                path: "gallery",
+                element: <Gallery />,
             },
         ],
     },  
